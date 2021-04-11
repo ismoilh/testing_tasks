@@ -5,7 +5,7 @@ const readline = require('readline').createInterface({
 })
 
 readline.question("Please enter the length of fibonacci sequence", input => {
-    console.log(`This is ${input} length fibonacci sequence`);
+    console.log(`This is first ${input} fibonacci sequence`);
 
     // Finding Out Fibonacci Numbers sequence
     const findFibonacci = (num) => {
@@ -59,7 +59,7 @@ readline.question("Please enter the length of fibonacci sequence", input => {
 
     console.log(`This are first ${input} non-fibonacci numbers`)
 
-    let done = unCommonArray(findedFibonacciNumbers, findNonFibonacci()).slice(0, input);
+    let done = unCommonArray(findedFibonacciNumbers, findNonFibonacci()).slice(0, input).join("\r\n");
     console.log(done);
 
     readline.close();
