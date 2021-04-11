@@ -1,0 +1,11 @@
+{
+  "name": "a1_brackets_test_task",
+  "version": "1.0.0",
+  "description": "Simple app for resolving errors of incorrect brackets position",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ISMOIL HASANOV",
+  "license": "ISC"
+}
