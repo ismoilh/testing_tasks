@@ -1,0 +1,12 @@
+{
+  "name": "b1_lru",
+  "version": "1.0.0",
+  "description": "LRU Cashing algorithm",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./test/benchmark.test.js",
+    "start": "node server.js"
+  },
+  "author": "Ismoilh Hasanov",
+  "license": "ISC"
+}

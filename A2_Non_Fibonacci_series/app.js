@@ -59,10 +59,9 @@ readline.question("Please enter the length of fibonacci sequence", input => {
 
     console.log(`This are first ${input} non-fibonacci numbers`)
 
-    for (let i = 0; i < input - 1; i++) {
-        let done = unCommonArray(findedFibonacciNumbers, findNonFibonacci())[i];
-        console.log(done);
-    }
+    let done = unCommonArray(findedFibonacciNumbers, findNonFibonacci()).slice(0, input);
+    console.log(done);
+
     readline.close();
 });
 
