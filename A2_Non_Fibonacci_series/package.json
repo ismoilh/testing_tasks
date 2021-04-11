@@ -1,0 +1,11 @@
+{
+  "name": "a2_non_fibonacci_series",
+  "version": "1.0.0",
+  "description": "App for finding out non fibonacci sequence of numbers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ismoil Hasanov",
+  "license": "ISC"
+}
